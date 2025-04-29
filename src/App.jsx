@@ -6,6 +6,7 @@ import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
 import BlogSection from './components/BlogSection';
+import Form from './components/FormSubmit'; // <-- Add this
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               </div>
             </section>
           } />
+          <Route path="/form" element={<Form />} /> {/* ✅ New Route */}
         </Routes>
       </main>
       <Footer />
