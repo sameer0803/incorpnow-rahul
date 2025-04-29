@@ -1,0 +1,1 @@
+export default function ExpertsSection() { return (<section id='experts' className='py-20 px-6'><h2 className='text-3xl font-bold text-center mb-10'>350+ Verified Experts Ready To Help</h2><div className='flex justify-center'><img src='/assets/expert-illustration.png' alt='Experts' className='w-1/2' /></div></section>); }

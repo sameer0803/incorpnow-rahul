@@ -1,0 +1,1 @@
+export default function SecuritySection() { return (<section className='py-20 px-6'><h2 className='text-3xl font-bold text-center mb-6'>Security & Confidentiality</h2><p className='text-center text-gray-600 max-w-2xl mx-auto'>Your data is 100% secure. End-to-end encryption, NDAs with experts, and strict privacy policies.</p></section>); }
